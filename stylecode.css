@@ -1,0 +1,255 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 300px;
+
+}
+.logo img:hover{
+    color: red;
+    border: 3px solid red;
+}
+.logo img{
+    width: 75px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-right: 32px
+
+
+}
+.navbar{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+     
+    
+
+}
+
+.nav-list{
+ 
+width: 50%;
+    /* background-color: black; */
+    display: inline-flex;
+    /* justify-content: center; */
+    align-items: center;
+     
+
+
+
+}
+
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+     
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+.nav-list li a:hover{
+    color: gray;
+}
+.rightNav{
+    /* background-color: aqua; */
+    width: 50%;
+    text-align: right;
+    padding: 0px 40px;
+    margin: 14px;
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.5) url("bg.jpg");
+    /* opacity: inherit; */
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    /* width: 50%; */
+    max-width: 70%;
+    /* margin: auto; */
+    margin: auto;
+    padding: auto;
+    height: 75%;
+
+}
+.btn{
+    background: none;
+    color: whitesmoke;
+    padding: 8px 20px;
+    border: 2px solid white;
+    margin: 8px 0;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+
+.firstSection{
+    height: 100vh;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.secondHalf{
+    width: 30%;
+    
+
+}
+
+.secondHalf img{
+    width: 156px;
+    border: 3px solid white;
+    border-radius: 50%;
+    
+}
+.text-big{
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.text-small{
+    
+    font-size: 18px;
+    
+
+}
+.btn-sm{
+    color: white;
+    font-size: 15px;
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 60px;
+    margin: 0px 5px;
+    padding: 05px;
+    background: none;
+    cursor: pointer;
+}
+
+.sections{
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sections-left{
+    /* display: flex; */
+    flex-direction: row-reverse;
+}
+
+.para{
+    padding: 0 4.5%;
+}
+
+
+ 
+ .thumbnail img{
+     width: 155px;
+     border: 2px solid black;
+     border-radius: 32px;
+     margin-top: 19px;
+
+ }
+
+/* .sections-left{
+    flex-direction: row-reverse;
+    
+} */
+.contract{
+    height: 700px;
+    background: rgb(226, 221, 221)
+}
+
+.text-centre{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.form{
+    max-width: 500px;
+    margin: auto;
+
+}
+.form-input{
+    width: 100%;
+    padding: 5px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin: 15px auto;
+    padding: 11px;
+}
+.btk{
+    color: black;
+    border: 2px solid black;
+    float: right;
+}
+.background2{
+    height: 16px;
+    background: url("bg.jpg");
+     
+    padding: 30px 0px;
+}
+
+.text-footer{
+    color: white;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 1140px){
+
+    .navbar{
+        flex-direction: column;
+    }
+    .logo {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 113px;}
+}
