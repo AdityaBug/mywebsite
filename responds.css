@@ -1,0 +1,78 @@
+@media only screen and (max-width: 1140px){
+
+    .navbar{
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 430px;
+    }
+    .logo {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0px 113px; */
+    flex-direction: column;
+    margin: auto;
+    padding: 0px;
+}
+
+    .logo img{
+        width: 60%;
+        /* margin-top: 20px; */
+    }
+     
+    
+.rightNav{
+    text-align: center;
+    margin: 0px auto;
+    width: 181px;
+    padding-right: 12px;
+}
+.btn-sm{
+    margin: 6px 5px;
+}
+#search{
+    width: 90%;
+}
+
+.background{
+    width: 100%;
+}
+.burger{
+    display: block;
+}
+.h-nav-resp{
+    height: 70px;
+}
+
+.v-class-resp{
+    opacity: 0;
+}
+.box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+    padding-top: 163px;
+    box-sizing: border-box;
+}
+.form{
+    max-width: 75%;
+}
+.sections{
+    /* height: 0px; */
+    flex-direction: column-reverse;
+}
+.firstHalf{
+    text-align: center;
+}
+.para{
+    padding: 0px;
+}
+.nav-list li{
+    padding: 12px 30px;
+    /* margin-left: -23px; */
+}
+.nav-list{
+    width: 100%;
+    
+}
+}
